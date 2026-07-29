@@ -61,27 +61,27 @@ const MODEL_PROMPTS: Record<string, string> = {
 const MODEL_ROUTING: Record<string, ProviderModel[]> = {
   
     flash: [
-      { provider: "mistral", modelId: "mistral-small-latest" },
+      { provider: "mistral", modelId: "mistral-large-2512" },
       { provider: "groq", modelId: "llama-3.3-70b-versatile" },
   ],
 
   speed: [
-    { provider: "mistral", modelId: "mistral-small-latest" },
+    { provider: "mistral", modelId: "mistral-large-2512" },
     { provider: "groq", modelId: "llama-3.3-70b-versatile" },
   ],
 
   smart: [
-    { provider: "mistral", modelId: "mistral-large-latest" },
+    { provider: "mistral", modelId: "mistral-large-2512" },
     { provider: "groq", modelId: "llama-3.3-70b-versatile" },
   ],
 
   deep: [
-    { provider: "mistral", modelId: "mistral-large-latest" },
+    { provider: "mistral", modelId: "mistral-large-2512" },
     { provider: "groq", modelId: "llama-3.3-70b-versatile" },
   ],
 
   thinking: [
-    { provider: "mistral", modelId: "mistral-small-latest" },
+    { provider: "mistral", modelId: "mistral-large-2512" },
     { provider: "groq", modelId: "llama-3.3-70b-versatile" },
   ],
 
