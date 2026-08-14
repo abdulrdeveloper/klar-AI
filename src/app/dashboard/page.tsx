@@ -8,7 +8,6 @@ import {
   Plus,
   MessageSquare,
   Trash2,
-  Settings,
   LogOut,
   Menu,
   X,

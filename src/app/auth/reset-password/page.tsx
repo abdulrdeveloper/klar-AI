@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, Suspense } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import { Lock, Eye, EyeOff, Loader2, ShieldCheck, XCircle } from "lucide-react";
 import Link from "next/link";
 
