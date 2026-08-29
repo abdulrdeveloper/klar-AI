@@ -61,33 +61,33 @@ const MODEL_PROMPTS: Record<string, string> = {
 const MODEL_ROUTING: Record<string, ProviderModel[]> = {
   
     flash: [
-      { provider: "mistral", modelId: "mistral-large-2512" },
-      { provider: "groq", modelId: "llama-3.3-70b-versatile" },
+      { provider: "mistral", modelId: "ministral-8b-latest" },
+      { provider: "groq", modelId: "qwen/qwen3.8-27b" },
   ],
 
   speed: [
-    { provider: "mistral", modelId: "mistral-large-2512" },
-    { provider: "groq", modelId: "llama-3.3-70b-versatile" },
+    { provider: "mistral", modelId: "ministral-8b-latest" },
+    { provider: "groq", modelId: "qwen/qwen3.8-27b" },
   ],
 
   smart: [
-    { provider: "mistral", modelId: "mistral-large-2512" },
-    { provider: "groq", modelId: "llama-3.3-70b-versatile" },
+    { provider: "mistral", modelId: "ministral-8b-latest" },
+    { provider: "groq", modelId: "qwen/qwen3.8-27b" },
   ],
 
   deep: [
-    { provider: "mistral", modelId: "mistral-large-2512" },
-    { provider: "groq", modelId: "llama-3.3-70b-versatile" },
+    { provider: "mistral", modelId: "ministral-8b-latest" },
+    { provider: "groq", modelId: "qwen/qwen3.8-27b" },
   ],
 
   thinking: [
-    { provider: "mistral", modelId: "mistral-large-2512" },
-    { provider: "groq", modelId: "llama-3.3-70b-versatile" },
+    { provider: "mistral", modelId: "ministral-8b-latest" },
+    { provider: "groq", modelId: "qwen/qwen3.8-27b" },
   ],
 
   coder: [
     { provider: "mistral", modelId: "codestral-latest" },
-    { provider: "groq", modelId: "llama-3.3-70b-versatile" },
+    { provider: "groq", modelId: "qwen/qwen3.8-27b" },
   ],
 };
 
