@@ -8,7 +8,7 @@ const CHAT_PREVIEW = [
   { role: "user", text: "Can you give me a real-world example?" },
   { role: "ai", text: "Kicking a soccer ball: your foot applies force, the ball has mass, so it accelerates. Kick harder → ball moves faster." },
 ];
-
+ 
 export default function ChatPreviewSection() {
   return (
     <div className="max-w-2xl mx-auto mb-16 px-5">

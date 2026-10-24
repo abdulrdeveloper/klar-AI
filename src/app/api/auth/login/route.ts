@@ -25,7 +25,7 @@ export async function POST(req: NextRequest) {
         { status: 400 },
       );
     }
-
+  
     const { email, password } = parsedResult.data;
     const identifier = getRequestIdentifier(req);
     const [ipLimit, emailLimit] = await Promise.all([

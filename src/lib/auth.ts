@@ -10,7 +10,7 @@ export async function getCurrentUser() {
   const token = cookieStore.get("session")?.value;
 
   if (!token) return null;
-
+  
   try {
     const { payload } = await jwtVerify(token, JWT_SECRET);
     return {

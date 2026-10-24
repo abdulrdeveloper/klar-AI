@@ -18,7 +18,7 @@ export default function HeroSection() {
           <Sparkles size={11} />
           Free AI for students
         </div>
-
+  
         <h1
           className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-[1.08] tracking-tight mb-5"
           style={{ fontFamily: "'Outfit', sans-serif" }}

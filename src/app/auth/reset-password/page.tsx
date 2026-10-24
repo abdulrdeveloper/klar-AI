@@ -60,7 +60,7 @@ function ResetPasswordContent() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setError("");
-
+  
     if (password !== confirmPassword) {
       setError("Passwords don't match.");
       return;

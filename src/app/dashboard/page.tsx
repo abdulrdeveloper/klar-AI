@@ -245,7 +245,7 @@ export default function DashboardPage() {
 
     loadConversations();
   }, [currentUser]);
-
+ 
   useEffect(() => {
     if (!currentUser || loadingConversationId) return;
 

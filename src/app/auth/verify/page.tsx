@@ -75,7 +75,7 @@ function VerifyContent() {
           {status === "success" && "Email verified!"}
           {status === "error" && "Verification failed"}
         </h1>
-
+ 
         <p
           style={{ color: "#9ca3af" }}
           className="mb-8 text-sm leading-relaxed"

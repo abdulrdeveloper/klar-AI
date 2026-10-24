@@ -76,7 +76,7 @@ const handleResend = async () => {
         <div className="border border-[hsl(228,8%,14%)] bg-white/[0.02] rounded-2xl p-6 sm:p-8 backdrop-blur-md shadow-xl">
 
           {!isSubmitted ? (
-
+ 
 <form onSubmit={handleSubmit} className="space-y-4">
               <div className="space-y-1.5">
                 <label htmlFor="email" className="text-xs font-medium text-[hsl(228,6%,44%)]">

@@ -1,7 +1,7 @@
 "use client";
 
 import { Lock } from "lucide-react";
-
+  
 const MODELS = [
   { name: "Flash", tag: "Default", desc: "Fast answers, no login needed.", free: true },
   { name: "Smart", tag: "Balanced", desc: "Deeper reasoning for complex topics.", free: false },
