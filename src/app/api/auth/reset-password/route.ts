@@ -42,7 +42,7 @@ export async function POST(req: NextRequest) {
         { status: 400 },
       );
     }
-
+ 
     if (record.expiresAt.getTime() < Date.now()) {
       return NextResponse.json(
         { success: false, message: "This link has expired. Please request a new one." },

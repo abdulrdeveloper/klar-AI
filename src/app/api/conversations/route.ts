@@ -10,7 +10,7 @@ export async function GET() {
   if (!session) {
     return NextResponse.json({ success: false }, { status: 401 });
   }
-
+ 
   const items = await db
     .select({
       id: conversations.id,

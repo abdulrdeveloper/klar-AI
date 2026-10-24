@@ -5,3 +5,4 @@ export async function POST() {
   response.cookies.delete("session");
   return response;
 }
+ 

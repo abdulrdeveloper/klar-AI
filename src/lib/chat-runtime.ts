@@ -79,7 +79,7 @@ const MODEL_ROUTING: Record<string, ProviderModel[]> = {
     { provider: "mistral", modelId: "ministral-8b-latest" },
     { provider: "groq", modelId: "qwen/qwen3.8-27b" },
   ],
-
+ 
   thinking: [
     { provider: "mistral", modelId: "ministral-8b-latest" },
     { provider: "groq", modelId: "qwen/qwen3.8-27b" },

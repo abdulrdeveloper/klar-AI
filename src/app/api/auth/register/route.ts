@@ -12,7 +12,7 @@ import { getAppUrl, getRequestIdentifier } from "@/lib/request-security";
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-
+  
     const identifier = getRequestIdentifier(req);
 
     const { success } = await registerRateLimiter.limit(`register:${identifier}`);

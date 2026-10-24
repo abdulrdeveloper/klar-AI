@@ -42,7 +42,7 @@ export async function POST(req: NextRequest) {
       token: verifyToken,
       expiresAt,
     });
-
+ 
     const resend = new Resend(process.env.RESEND_API_KEY);
     const baseURL = getAppUrl();
     const verifyURL = `${baseURL}/auth/verify?token=${verifyToken}`;

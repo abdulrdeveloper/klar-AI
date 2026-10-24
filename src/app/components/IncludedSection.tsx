@@ -1,7 +1,7 @@
 "use client";
 
 import { Check } from "lucide-react";
-
+  
 const INCLUDED = [
   "Free forever, no credit card needed",
   "Start chatting instantly, no signup",

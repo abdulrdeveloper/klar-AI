@@ -61,7 +61,7 @@ UPSTASH_REDIS_REST_URL=your_upstash_redis_rest_url
 UPSTASH_REDIS_REST_TOKEN=your_upstash_redis_rest_token
 APP_URL=https://klar.abdulrdeveloper.me
 ```
-
+  
 4. Run the development server
 
 ```bash

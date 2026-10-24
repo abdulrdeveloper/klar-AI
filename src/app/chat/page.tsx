@@ -111,7 +111,7 @@ export default function ChatPage() {
         const responseText = await response.text().catch(() => "");
         throw new Error(responseText.trim() || fallbackMessage);
       }
-
+  
       const text = await response.text();
       setIsTyping(false);
       setIsRevealing(true);

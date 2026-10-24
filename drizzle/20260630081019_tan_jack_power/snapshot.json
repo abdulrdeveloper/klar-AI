@@ -526,7 +526,7 @@
       ],
       "nameExplicit": false,
       "name": "conversations_pkey",
-      "schema": "public",
+      "schema": "public", 
       "table": "conversations",
       "entityType": "pks"
     },

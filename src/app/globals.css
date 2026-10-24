@@ -18,7 +18,7 @@
   --font-sans: var(--font-inter);
   --font-mono: var(--font-jetbrains);
 }
-
+ 
 @layer base {
   html {
     background-color: var(--color-bg);
