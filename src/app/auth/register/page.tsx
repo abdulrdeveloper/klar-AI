@@ -227,7 +227,7 @@ export default function RegisterPage() {
               <div className="mx-auto w-14 h-14 rounded-full bg-[hsl(38,100%,56%)]/10 border border-[hsl(38,100%,56%)]/20 flex items-center justify-center text-[hsl(38,100%,56%)]">
                 <MailCheck size={26} />
               </div>
-
+  
               <div className="space-y-2">
                 <h2 className="text-2xl font-extrabold text-white tracking-tight">
                   Check your email

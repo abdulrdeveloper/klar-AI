@@ -10,7 +10,7 @@ export async function GET() {
   if (!session) {
     return NextResponse.json({ success: false }, { status: 401 });
   }
-
+  
   const [user] = await db
     .select({ id: users.id, name: users.name, email: users.email })
     .from(users)

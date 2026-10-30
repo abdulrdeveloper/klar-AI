@@ -10,7 +10,7 @@ export async function GET(
 ) {
   const { id } = await params;
   const session = await getCurrentUser();
-
+  
   if (!session) {
     return NextResponse.json({ success: false }, { status: 401 });
   }

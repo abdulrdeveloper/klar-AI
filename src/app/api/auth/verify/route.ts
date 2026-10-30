@@ -75,7 +75,7 @@ export async function POST(req: NextRequest) {
       maxAge: 7 * 24 * 60 * 60,
       path: "/",
     });
-
+ 
     return response;
   } catch (error) {
     console.error("Verify error:", error);

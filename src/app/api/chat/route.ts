@@ -28,7 +28,7 @@ export async function POST(req: Request) {
 
     const { messages: chatMessages, model, conversationId } = parsed.data;
     const result = await generateChatReply({ messages: chatMessages, model });
-
+  
     let savedConversationId = conversationId ?? null;
 
     if (session) {

@@ -22,7 +22,7 @@ CREATE TABLE "reset_tokens" (
 	"expires_at" timestamp NOT NULL,
 	"used" boolean DEFAULT false NOT NULL,
 	"created_at" timestamp DEFAULT now() NOT NULL,
-	"updated_at" timestamp DEFAULT now() NOT NULL
+	"updated_at" timestamp DEFAULT now() NOT NULL  
 );
 --> statement-breakpoint
 CREATE TABLE "users" (

@@ -30,7 +30,7 @@ export default function HowItWorksSection() {
             Three steps to get started
           </h2>
         </div>
-
+ 
         <div className="flex flex-col gap-0">
           {STEPS.map((step, i) => (
             <div key={step.num} className="flex gap-5 items-start relative">

@@ -87,7 +87,7 @@ export async function POST(req: NextRequest) {
     </table>
   </body>
   </html>`;
-
+ 
     await resend.emails.send({
       from: "Klar <noreply@abdulrdeveloper.me>",
       to: email,

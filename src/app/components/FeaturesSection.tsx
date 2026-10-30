@@ -1,5 +1,5 @@
 "use client";
-
+ 
 import { MessageSquare, Save, Brain, Code, Lock, Zap } from "lucide-react";
 
 const FEATURES = [

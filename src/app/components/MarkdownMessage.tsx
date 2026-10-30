@@ -65,7 +65,7 @@ export default function MarkdownMessage({ content }: { content: string }) {
             if (isBlock) {
               return <CodeBlock language={match?.[1] || "text"} code={codeString} />;
             }
-
+  
             return (
               <code
                 className="rounded bg-[#2a2d34] px-1 py-0.5 text-[13px] text-[#d4af37]"

@@ -4,7 +4,7 @@ import { jwtVerify } from "jose";
 const secret = process.env.JWT_SECRET;
 if (!secret) throw new Error("JWT_SECRET is missing");
 const JWT_SECRET = new TextEncoder().encode(secret);
-
+ 
 export async function middleware(req: NextRequest) {
   const token = req.cookies.get("session")?.value;
 
